@@ -1,0 +1,22 @@
+
+
+# Node modules
+blog/client/node_modules/
+blog/server/node_modules/
+eshop/client/node_modules/
+eshop/server/node_modules/
+qrcode/client/node_modules/
+qrcode/server/node_modules/
+
+mern.code-workspace
+
+
+# Environment files
+.env
+*.env
+
+# Other common ignores
+.DS_Store
+dist/
+build/
+*.log

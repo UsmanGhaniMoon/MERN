@@ -1,0 +1,33 @@
+GET http://localhost:5000/api/user/viewuser
+
+###
+
+GET http://localhost:5000/api/user/singleuser/67bef288a9248670b04a0dcc
+
+###
+
+POST http://localhost:5000/api/user/adduser
+content-type: application/json
+
+{
+    "user_name":"test2",
+    "user_email":"test2@gmail.com",
+    "user_dob":"1992-05-02",
+    "gender":"male"
+}
+
+###
+
+PUT http://localhost:5000/api/user/updateuser/67bf17e258ffced24d7e9f9a
+content-type: application/json
+
+{
+    "user_name":"test3",
+    "user_email":"test3@gmail.com",
+    "user_dob":"1992-05-03",
+    "gender":"male"
+}
+
+###
+
+DELETE http://localhost:5000/api/user/deleteuser/67bf17e258ffced24d7e9f9a

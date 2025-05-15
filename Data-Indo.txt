@@ -1,0 +1,7 @@
+Connect to JotPhoneMERN
+Username:usmanghanimaroot
+Password:FzLOykhzo40Anc50
+
+
+Connect to JotPhoneMERN
+mongodb+srv://usmanghanimaroot:<db_password>@jotphonemern.k9dqvjs.mongodb.net/
